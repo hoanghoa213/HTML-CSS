@@ -1,0 +1,72 @@
+.logo{
+    font-weight: bold;
+    font-size: 36px;
+    color: #e8603c;
+}
+.menu{
+    padding: 10px;
+}
+a{
+    font-size: 16px;
+    color: #b9b9b9;
+}
+a:hover{
+    color: #e8663c;
+}
+.line-banner{
+    padding-top: 23px;
+}
+.line-slide{
+    padding-top: 17px;
+}
+.line-features{
+    padding-top: 40px;
+}
+.line-recentwork{
+    padding-top: 40px;
+}
+.title-features{
+    font-weight: bold;
+    color: #e8663c;
+    font-size: 24px;
+    margin-top: -10px;
+}
+.btn-features{
+    background-color: #e8663c;
+    color: #fff;
+    border: #e8663c;
+    width: 55px;
+    height: 31px;
+}
+.btn-features:hover{
+    color: darkslategrey;
+}
+.title-recentwork{
+    color: #e8663c;
+    font-weight: bold;
+    margin-top: -2px;
+}
+.mycard-title{
+    color: #b9b9b9;
+    font-size: 18px;
+
+}
+.mycard-body{
+    color: #e8663c;
+    font-size: 18px;
+}
+.myfooter{
+    height: 263px;
+    background: #e8663c;
+}
+.myfooter-title{
+    font-size: 20px;
+    color: #fff;
+    padding: 10px 10px;
+    padding-top: 30px;
+}
+.myfooter-body{
+    font-size: 12px;
+    color: #fff;
+    padding: 0px 10px;
+}

@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ul{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+.clearfix:after{
+	content: "";
+	display: block;
+	clear: both;
+}
+.header{
+    width: 100%;
+    height: 50px;
+    background: #792B8E;
+    color: #fff;
+    background-image: url('../images/logo-top.png');
+    background-position: left;
+    background-size: 350px 50px;
+    background-repeat: no-repeat;
+}
+.left{
+    width:30%;
+    float: left;
+    background: red;
+}
+.content{
+    width: 70%;
+    float: left;
+    background: yellow;
+}
+.right{
+    width: 30%;
+    float: left;
+    background: blue;
+}
+.left, .content, .right{
+    height: 700px;
+}
+.footer{
+    background-image: url('../images/logo-footer.png');
+    width: 100%;
+    float: left;
+    height: 250px;
+    background-size: 100% 100%;
+}
+.menu{
+    background: #4F1A5E;
+}
+.menu >ul>li{
+    display: inline-block;
+    position: relative; /*Nãy thiếu position: relative*/
+    border-radius: 0px 15px 35px 45px;
+}
+.menu ul li a{
+    display: block;
+    line-height: 45px;
+    padding: 0 15px;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-decoration: none;
+}
+.menu ul li:hover{
+    background: red;
+}
+/*Sub menu*/
+/* Ok rồi */
+.sub-menu{
+    display: none;
+    position: absolute;
+    top:100%;
+    left: 0;
+    width: 220px;
+    background: rgba(0, 0, 0, .7);
+    z-index: 1;
+    border-radius: 15px 15px 15px 15px;
+}
+.menu li:hover>.sub-menu {
+    display: inline;
+  }

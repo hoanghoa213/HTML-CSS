@@ -1,0 +1,19 @@
+.title{
+    font-size: 20px;
+    color: red;
+}
+#content{
+    background-color: blue;
+}
+.col{
+    display: flex;
+}
+.col .row{
+    flex: 1;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: aqua;
+    height: 100px;
+    padding: 10px 0;
+    margin: 5px;
+}
