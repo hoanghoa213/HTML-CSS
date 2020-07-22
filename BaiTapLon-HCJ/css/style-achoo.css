@@ -32,3 +32,53 @@
 .no-margin{
     margin: 0px;
 }
+.my-account-main-achoo{
+    padding-top: 40px;
+    padding-left: 50px;
+}
+.my-account-title-achoo{
+    font-family: "Montserrat SemiBold";
+    color: #5a4a3b;
+    font-size: 36px;
+}
+.line-img-achoo{
+    background-image: url('../img-achoo/line.jpg');
+    background-repeat: no-repeat;
+    background-position: left bottom;
+    background-size: 440px;
+    height: 20px;
+}
+.my-account-form-space-achoo{
+    height: 30px;
+}
+.my-account-form-font-achoo{
+    font-family: "Montserrat regular";
+    font-size: 14px;
+    height: 52px;
+    width: 440px;
+    margin-top: 20px;
+}
+.my-account-form-check-achoo{
+    font-family: "Montserrat medium";
+    font-size: 14px;
+    color: #8e8b88;
+    margin-top: 20px;
+}
+.my-account-button-submit-achoo{
+    font-family: "Montserrat SemiBold";
+    font-size: 18px;
+    background-color: #549843;
+    border: #549843;
+    width: 440px;
+    height: 57px;
+}
+.my-account-required-red-achoo{
+    position: relative;
+}
+.my-account-required-red-achoo::after{
+    content: '*';
+    position: absolute;
+    top: 30px;
+    left: 96px;
+    color: red;
+}
