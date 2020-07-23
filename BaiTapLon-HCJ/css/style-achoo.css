@@ -72,13 +72,8 @@
     width: 440px;
     height: 57px;
 }
-.my-account-required-red-achoo{
-    position: relative;
-}
-.my-account-required-red-achoo::after{
-    content: '*';
-    position: absolute;
-    top: 30px;
-    left: 96px;
-    color: red;
-}
+input.asterisk{
+    background-image: url("../img-achoo/asterisk.png");
+    background-repeat: no-repeat;
+    background-position: right top;
+  }
