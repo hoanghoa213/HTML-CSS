@@ -19,6 +19,9 @@
     font-size: 14px;
     color: #94bf89;
 }
+.navbar-font-achoo:hover{
+    color: lightblue;
+}
 .navbar-font-active-achoo{
     font-family: "Montserrat medium";
     font-size: 14px;
@@ -167,4 +170,66 @@ input.asterisk{
     font-family: "Montserrat SemiBold";
     color: #4a4642;
     font-size: 18px;
+}
+/* STYLE CHECKOUT */
+.checkout-table-padding-achoo{
+    padding: 0px 30px;
+}
+.checkout-form-padding-achoo{
+    padding: 0px 40px;
+}
+.checkout-title-achoo{
+    font-family: "Montserrat SemiBold";
+    color: #5a4a3b;
+    font-size: 22px;
+}
+.checkout-desc-achoo{
+    font-family: "Montserrat medium";
+    color: #7d7976;
+    font-size: 14px;
+}
+.checkout-input-font-achoo{
+    font-family: "Montserrat";
+    color: #4a4642;
+    font-size: 14px;
+    height: 52px;
+    margin-top: 20px;
+}
+.checkout-lost-password-font-achoo{
+    font-family: "Montserrat";
+    color: #4a4642;
+    font-size: 12px;
+}
+.checkout-table-border-achoo{
+    border: 1px solid #dddcdc;
+}
+.checkout-table-header-achoo{
+    background: #f1f1f1;
+    color: #4a4642;
+}
+.checkout-table-subtotal-achoo{
+    background: #e0dad5;
+    color: #4a4642;
+}
+.checkout-table-shipping-achoo{
+    background: #cdc8c3;
+    color: #4a4642;
+}
+.checkout-table-total-achoo{
+    background: #6e645a;
+    color: white;
+}
+.checkout-table-header-font-achoo{
+    font-family: "Montserrat medium";
+    font-size: 14px;
+}
+.checkout-table-product-font-achoo{
+    font-family: "Montserrat";
+    font-size: 13px;
+}
+.checkout-table-order-col1-achoo{
+    width: 70%;
+}
+.checkout-table-order-col2-achoo{
+    width: 30%;
 }
