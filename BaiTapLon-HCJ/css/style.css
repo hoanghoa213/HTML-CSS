@@ -5,7 +5,9 @@
 hr{
 	margin: 0;
 }
-
+p{
+  font-family: Montserrat;
+}
 /* #wrapper{
 	width: 1600px;
 	margin: 0px auto;
@@ -134,7 +136,7 @@ footer {
     /* height: 100px; */
     background: #add253;
     padding: 20px 20px 0px 20px;
-    margin-top: -50px;
+    margin-top: -75px;
 }
 
 .footer-content {
@@ -371,12 +373,10 @@ footer {
 
 .slide-arrival .slick-prev {
     left: -70px;
-    z-index: 1000000;
 }
 
 .slide-arrival .slick-next {
     right: -45px;
-    z-index: 100000;
 }
 
  .slide-arrival .slick-slide {
@@ -430,7 +430,9 @@ footer {
   	background: #fff;
   	position: relative;
   }
-
+.slide-item button:focus{
+  outline: none;
+}
   .slide-item button img{
   	width: 30px;
   	height: 30px;
@@ -445,6 +447,7 @@ footer {
   	top: -20px;
   	right: 20px;
   	display: block;
+    z-index: 10;
   }
 
   .slide-item .new{
@@ -452,11 +455,48 @@ footer {
   	top: -20px;
   	right: 20px;
   	display: block;
+    z-index: 10;
   }
 .slide-arrival{
 	margin-bottom: 100px;
  }
-
+.slide-item:hover{
+  background: #b9d96c;
+}
+ .middle{
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+ }
+.wrapper-icon{
+  display: inline-block;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background: #5a4a3b;
+  text-align: center;
+}
+.middle .wrapper-icon img{
+  width: 50%;
+  display: inline-block;
+  margin: auto auto;
+  margin-top: 10px;
+}
+ .slide-item:hover .slide-item-sm{
+  opacity: 0.3;
+ }
+ .slide-item:hover .middle{
+  opacity: 1;
+ }
+/* 
+.slide-item-sm{
+  position: relative;
+} */
 .deal-link{
 	text-align: center;
 }
@@ -479,6 +519,7 @@ footer {
 }
 .deal-content{
 	margin-top: 60px;
+  text-align: center;
 }
 .deal-item-sm{
 	width: 130px;
@@ -531,7 +572,9 @@ footer {
 	margin-top: 170px; 
 	position: relative;
 }
-
+.deal-center>img{
+  max-width: 100%;
+}
 .deal-center-item button{
 	display: inline-block;
   	margin-bottom: 25px;
@@ -556,12 +599,12 @@ footer {
 
 .deal-center-item{
 	position: absolute;
-	top: 20%;
-	left: 10%;
+	top: 18%;
+	left: 8%;
 	/* padding: 35px 80px; */
   /* max-width: 80%; */
 	/* border-radius: 50%; */
-	text-align: center;
+  display: block;
 }
 
 .center-deal-item{
@@ -754,36 +797,186 @@ footer {
 .newsl-text{
   margin-top: 100px;
 }
+.slide-brand{
+  text-align: center;
+}
+.slide-brand-item img{
+  margin: auto;
+}
 
+.slide-brand .slick-next:before {
+  content: "\f054";
+  font-family: 'Font Awesome\ 5 Free';
+  font-weight: 900;
+  padding: 10px 15px;
+  color: #b7b7b7;
+  font-size: 18px;
+}
+.slide-brand .slick-prev:before{
+  content: "\f053";
+  font-weight: 900;
+  font-family: 'Font Awesome\ 5 Free';
+  padding: 10px 15px;
+  color: #b7b7b7;
+  font-size: 18px;
+}
+.slide-brand .slick-prev {
+    left: -70px;
+}
+
+.slide-brand .slick-next {
+    right: -45px;
+}
+.brand{
+  margin: 75px 0 150px;
+}
+.my-head-bg{
+  height: 223px;
+  background: #827161;
+}
+.contact-title{
+  margin-top: -15px;
+  padding-left: 35px;
+  background: #549843;
+}
+.contact-title span {
+  text-decoration: none;
+  font-family: Montserrat;
+  font-size: 14px;
+  color: #FFF;
+}
+.contact-title span a{
+  color: #94bf89;
+}
+.contact-title p{
+  color: #fff;
+  font-size: 48px;
+  font-weight: bold;
+}
+
+.contact-address{
+  position: relative;
+  display: inline-block;
+}
+
+.contact-address .contact-address-inside img{
+  position: absolute;
+  z-index: 999;
+  margin:  0 auto;
+  left: 0;
+  right: 0;
+  top: 15%;
+  /* height: 81.17px; */
+  text-align: center;
+  /* width: 15%; */
+}
+.contact-address .contact-addrtext{
+  position: absolute;
+  z-index: 999;
+  margin:  0 auto;
+  left: 0;
+  right: 0;
+  top: 41%;
+  text-align: center;
+  width: 80%;
+}
+.form-contact{
+  width: 79%;
+  margin: 0 auto;
+  text-align: center;
+}
+.user-contact-info{
+  background: #132c01;
+  margin-right: -30px;
+}
+.form-contact p{
+  font-family: Frente H1;
+  margin-top: 100px;
+  margin-bottom: 30px;
+  font-size: 72px;
+  color: #fff;
+}
+
+.form-contact p span{
+  color: #5ba628;
+}
+.contact-input textarea{
+  resize: none;
+}
+.contact-input input:focus, .contact-input textarea:focus{
+  background: #29490d;
+  color: #91c950;
+  font-family: Montserrat;
+  font-weight: bold;
+  font-size: 14px;
+}
+input[placeholder], textarea[placeholder]{
+  background: #29490d;
+  border: none;
+  font-family: Montserrat;
+  font-weight: bold;
+  font-size: 14px;
+}
+.form-contact form .form-control::-webkit-input-placeholder { 
+  color: #91c950;
+}
+
+.form-contact form .form-control::-moz-placeholder {
+  color: #91c950;
+}
+.form-contact form .form-control:-ms-input-placeholder {
+  color: #91c950;
+}
+.form-contact form .form-control:placeholder {
+  color: #91c950;
+}
+.btn-contact{
+  width: 100%;
+  color: #181010;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-weight: bold;
+  background: #78cf3c;
+  margin-bottom: 100px;
+  margin-top: 24px;
+}
 
 @media only screen and (max-width: 1200px){
-  .deal-center-item{
-    left: 43px;
+  .deal-center .deal-item-title{
+    width: 204px;
   }
+
+  .deal-center-item{
+    position: unset;
+    margin-top: -340px;
+  }
+}
+@media only screen and (max-width: 991px){
+  img.img-line{
+    display: none;
+  }
+  .contact-address .contact-address-inside img{
+  left: 0;
+  right: 0;
+  top: 14%;
+  text-align: center;
+  width: 10%;
+  height: auto;
+}
+.contact-address .contact-addrtext{
+  width: 40%;
+  top: 32%;
+}
 }
 @media only screen and (max-width: 768px){
   .pr-right{
     height: 200px;
   }
 }
-@media only screen and (min-width: 200px) and (max-width: 450px){
-  .deal-center>img{
-    width: 100%;
-  }
-  .deal-center-item{
-    left: 14px;
-    top: 20%;
-  }
-  .center-deal-item{
-    width: 130px;
-    height: 100px;
-  }
-  .deal-center .deal-item-title{
-    font-size: 14px;
-    width: 85%;
-  }
-  .deal-center .deal-price{
-    font-size: 18px;
+@media only screen and (min-width: 200px) and (max-width: 460px){
+   .deal-center-item{
+    position: unset;
+    margin-top: -270px;
   }
 }
 
