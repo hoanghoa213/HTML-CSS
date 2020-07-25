@@ -1,3 +1,4 @@
+/* STYLE MY ACCOUNT */
 .header-content-achoo{
     height: 220px;
     background: #827161;
@@ -79,4 +80,91 @@ input.asterisk{
     background-image: url("../img-achoo/asterisk.png");
     background-repeat: no-repeat;
     background-position: right top;
-  }
+}
+
+/* STYLE ADD-TO-CART */
+.add-to-cart-table-padding-achoo{
+    padding: 0px 30px;
+}
+.add-to-cart-table-border-achoo{
+    border: 3px solid #dbdbdb;
+    margin-left: auto;
+    margin-right: auto;
+}
+.add-to-cart-img-products-achoo{
+    width: 100px;
+    height: 100px;
+}
+.add-to-cart-table-font-header-achoo{
+    font-family: "Montserrat SemiBold";
+    color: #5a4a3b;
+    font-size: 15px;
+}
+.add-to-cart-table-font-row-achoo{
+    font-family: "Montserrat";
+    color: #4a4642;
+    font-size: 14px;
+    border: 3px solid #dbdbdb;
+    box-shadow: 1px 5px 10px #dbdbdb;
+}
+.add-to-cart-table-quantity-achoo{
+    font-family: "Montserrat";
+    color: #4a4642;
+    font-size: 14px;
+    padding-top: 10px;
+    width: 50%;
+}
+.add-to-cart-table-btn-next-achoo{
+    background-image: url('../img-achoo/next-button.png');
+    background-repeat: no-repeat;
+    background-position: 90% 50%;
+    font-family: "Montserrat SemiBold";
+    font-size: 13px;
+    color: #5a4a3b;
+    width: 130%;
+    border: 2px solid #dbdbdb;
+}
+.add-to-cart-table-coupon-font-achoo{
+    font-family: "Montserrat SemiBold";
+    font-size: 24px;
+    background-color: #d9d5d2;
+}
+.add-to-cart-table-coupon-input-achoo{
+    border: 2px solid #ffffff;
+    background: #d9d5d2;
+}
+.add-to-cart-table-coupon-col-1-achoo{
+    width: 20%;
+}
+.add-to-cart-table-coupon-col-2-achoo{
+    width: 60%;
+    padding: 0px 10px;
+}
+.add-to-cart-table-coupon-col-3-achoo{
+    width: 20%;
+}
+.add-to-cart-table2-font-header-achoo{
+    font-family: "Montserrat SemiBold";
+    color: #5a4a3b;
+    font-size: 15px;
+    border: 3px solid #dbdbdb;
+    box-shadow: 1px 5px 10px #dbdbdb;
+}
+.add-to-cart-table2-font-form-achoo{
+    font-family: "Montserrat";
+    color: #5a4a3b;
+    font-size: 14px;
+}
+.add-to-cart-checkout-background-achoo{
+    background: #ece8e6;
+}
+.add-to-cart-checkout-font1-achoo{
+    font-family: "Montserrat";
+    color: #4a4642;
+    font-size: 14px;
+}
+.add-to-cart-checkout-font2-achoo{
+    font-family: "Montserrat SemiBold";
+    color: #4a4642;
+    font-size: 18px;
+}
