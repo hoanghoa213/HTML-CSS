@@ -1,19 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Add to cart</title>
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <script src="js/jquery-3.5.1.min.js"></script>
-  
-    <link rel="stylesheet" href="fontawesome-free-5.14.0-web/css/all.css">
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/owl.carousel.min.css">
-    <link rel="stylesheet" href="css/owl.theme.default.min.css">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/style-achoo.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Add to cart</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <script src="js/jquery-3.5.1.min.js"></script>
+
+  <link rel="stylesheet" href="fontawesome-free-5.14.0-web/css/all.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/owl.carousel.min.css">
+  <link rel="stylesheet" href="css/owl.theme.default.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/style-achoo.css">
 </head>
+
 <body>
   <!--HEADER-->
 
@@ -25,211 +27,213 @@
     <div class="container">
       <nav class="navbar navbar-expand-sm no-padding">
         <div class="navbar-content-achoo">
-            <ul class="navbar-nav">
-                <li class="nav-item">
-                  <a class="nav-link navbar-font-achoo" href="home.html">Home</a>
-                </li>
-                <li class="nav-item">
-                  <span class="nav-link navbar-font-achoo">|</span>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link text-light navbar-font-active-achoo" href="#">Checkout</a>
-                </li>
-              </ul>
-              <ul class="navbar-nav">
-                <li class="nav-item">
-                    <a class="nav-link text-light navbar-font-title-achoo" href="#">Checkout</a>
-                </li>
-              </ul>
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link navbar-font-achoo" href="home.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <span class="nav-link navbar-font-achoo">|</span>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-light navbar-font-active-achoo" href="#">Checkout</a>
+            </li>
+          </ul>
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link text-light navbar-font-title-achoo" href="#">Checkout</a>
+            </li>
+          </ul>
         </div>
-    </nav>
-        <!--NOI DUNG CHINH-->
-        <!--THEM KHOANG TRANG-->
-        <div class="my-account-form-space-achoo">
+      </nav>
+      <!--NOI DUNG CHINH-->
+      <!--THEM KHOANG TRANG-->
+      <div class="my-account-form-space-achoo">
+      </div>
+      <div class="my-account-form-space-achoo">
+      </div>
+      <div class="my-account-form-space-achoo">
+      </div>
+      <!--KET THUC-->
+      <div class="row add-to-cart-table-padding-achoo">
+        <div class="col-12">
+          <!--BANG CHI TIET SAN PHAM-->
+          <table class="table add-to-cart-table-border-achoo">
+            <thead class="bg-light add-to-cart-table-font-row-achoo">
+              <tr>
+                <th scope="col">PRODUCT</th>
+                <th scope="col">Name & Description</th>
+                <th scope="col">PRICE</th>
+                <th scope="col">QUANTITY</th>
+                <th scope="col" colspan="2">TOTAL</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr class="add-to-cart-table-font-row-achoo">
+                <th><img src="./img-achoo/Strawberries.jpg" alt="" class="add-to-cart-img-products-achoo"></th>
+                <td class="align-middle">Strawberries, 16 oz</td>
+                <td class="align-middle">$2.50 / ea </td>
+                <td class="align-middle">
+                  <div class="form-group add-to-cart-table-quantity-achoo">
+                    <select class="form-control" id="chonsoluong">
+                      <option>1</option>
+                      <option>2</option>
+                      <option>3</option>
+                      <option>4</option>
+                      <option>5</option>
+                    </select>
+                  </div>
+                </td>
+                <td class="align-middle">$2.50 </td>
+                <td class="align-middle"><a href="#" class="nav-link">x</a></td>
+              </tr>
+              <tr class="add-to-cart-table-font-row-achoo">
+                <th><img src="./img-achoo/Broccoli.jpg" alt="" class="add-to-cart-img-products-achoo"></th>
+                <td class="align-middle">Broccoli, bunch</td>
+                <td class="align-middle">$2.29 /bunch </td>
+                <td class="align-middle">
+                  <div class="form-group add-to-cart-table-quantity-achoo">
+                    <select class="form-control" id="chonsoluong">
+                      <option>1</option>
+                      <option>2</option>
+                      <option>3</option>
+                      <option>4</option>
+                      <option>5</option>
+                    </select>
+                  </div>
+                </td>
+                <td class="align-middle">$4.00</td>
+                <td class="align-middle"><a href="#" class="nav-link">x</a></td>
+              </tr>
+              <tr class="add-to-cart-table-font-row-achoo">
+                <th class="align-middle"><button type="button"
+                    class="btn btn-outline-success add-to-cart-table-btn-next-achoo">Continue with Shopping</button>
+                </th>
+                <td class="align-middle text-right" colspan="5">
+                  <a href="#"><img src="img-achoo/clear-cart-btn.png" alt="Clear cart"></a>
+                  <a href="#"><img src="img-achoo/update-cart-btn.png" alt="Update cart"></a></td>
+              </tr>
+              <tr class="add-to-cart-table-font-row-achoo add-to-cart-table-coupon-font-achoo">
+                <th class="align-middle" colspan="6">
+                  <ul class="nav justify-content-center justify-items-center nav-fill">
+                    <li class="nav-item add-to-cart-table-coupon-col-1-achoo">
+                      Coupon Code
+                    </li>
+                    <li class="nav-item add-to-cart-table-coupon-col-2-achoo">
+                      <input type="text" class="form-control add-to-cart-table-coupon-input-achoo" id="CouponCode">
+                    </li>
+                    <li class="nav-item add-to-cart-table-coupon-col-3-achoo">
+                      <a href="#"><img src="img-achoo/apply-now-btn.png" alt="Apply now" class="w-100"></a>
+                    </li>
+                  </ul>
+                </th>
+              </tr>
+            </tbody>
+          </table>
+          <!--KET THUC BANG CHI TIET SAN PHAM-->
         </div>
-        <div class="my-account-form-space-achoo">
-        </div>
-        <div class="my-account-form-space-achoo">
-        </div>
-        <!--KET THUC-->
-        <div class="row add-to-cart-table-padding-achoo">
-          <div class="col-12">
-            <!--BANG CHI TIET SAN PHAM-->
-            <table class="table add-to-cart-table-border-achoo">
-              <thead class="bg-light add-to-cart-table-font-row-achoo">
-                <tr>
-                  <th scope="col">PRODUCT</th>
-                  <th scope="col">Name & Description</th>
-                  <th scope="col">PRICE</th>
-                  <th scope="col">QUANTITY</th>
-                  <th scope="col" colspan="2">TOTAL</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr class="add-to-cart-table-font-row-achoo">
-                  <th><img src="./img-achoo/Strawberries.jpg" alt="" class="add-to-cart-img-products-achoo"></th>
-                  <td class="align-middle">Strawberries, 16 oz</td>
-                  <td class="align-middle">$2.50 / ea </td>
-                  <td class="align-middle">
-                      <div class="form-group add-to-cart-table-quantity-achoo">
-                          <select class="form-control" id="chonsoluong">
-                            <option>1</option>
-                            <option>2</option>
-                            <option>3</option>
-                            <option>4</option>
-                            <option>5</option>
-                          </select>
-                        </div>
-                  </td>
-                  <td class="align-middle">$2.50 </td>
-                  <td class="align-middle"><a href="#" class="nav-link">x</a></td>
-                </tr>
-                <tr class="add-to-cart-table-font-row-achoo">
-                  <th><img src="./img-achoo/Broccoli.jpg" alt="" class="add-to-cart-img-products-achoo"></th>
-                  <td class="align-middle">Broccoli, bunch</td>
-                  <td class="align-middle">$2.29 /bunch </td>
-                  <td class="align-middle">
-                    <div class="form-group add-to-cart-table-quantity-achoo">
-                      <select class="form-control" id="chonsoluong">
-                        <option>1</option>
-                        <option>2</option>
-                        <option>3</option>
-                        <option>4</option>
-                        <option>5</option>
+      </div>
+      <div class="row add-to-cart-table-padding-achoo">
+        <div class="col-7">
+          <!--BANG THONG TIN SHIP-->
+          <div class="my-account-form-space-achoo">
+          </div>
+          <table class="table add-to-cart-table-border-achoo">
+            <thead class="add-to-cart-table2-font-header-achoo">
+              <tr>
+                <th scope="col">Estimate Shipping and Tax</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr class="add-to-cart-table-font-row-achoo">
+                <td>
+                  <div>
+                    <div class="my-account-form-space-achoo">
+                    </div>
+                    <p class="add-to-cart-table2-font-form-achoo">Enter your destination to get a shipping estimate.</p>
+                    <p class="add-to-cart-table2-font-form-achoo">Country <span style="color: red;">*</span></p>
+                    <div class="form-group">
+                      <select class="form-control add-to-cart-table2-font-form-achoo" id="choncountry">
+                        <option value="" disabled selected>Choose your country</option>
+                        <option value="1">United States</option>
+                        <option value="2">Germany</option>
+                        <option value="3">France</option>
+                        <option value="4">Poland</option>
+                        <option value="5">Japan</option>
                       </select>
                     </div>
-                  </td>
-                  <td class="align-middle">$4.00</td>
-                  <td class="align-middle"><a href="#" class="nav-link">x</a></td>
-                </tr>
-                <tr class="add-to-cart-table-font-row-achoo">
-                  <th class="align-middle"><button type="button" class="btn btn-outline-success add-to-cart-table-btn-next-achoo">Continue with Shopping</button></th>
-                  <td class="align-middle text-right" colspan="5">
-                    <a href="#"><img src="img-achoo/clear-cart-btn.png" alt="Clear cart"></a> 
-                    <a href="#"><img src="img-achoo/update-cart-btn.png" alt="Update cart"></a></td>
-                </tr>
-                <tr class="add-to-cart-table-font-row-achoo add-to-cart-table-coupon-font-achoo">
-                  <th class="align-middle" colspan="6">
-                    <ul class="nav justify-content-center justify-items-center nav-fill">
-                      <li class="nav-item add-to-cart-table-coupon-col-1-achoo">
-                        Coupon Code
-                      </li>
-                      <li class="nav-item add-to-cart-table-coupon-col-2-achoo">
-                        <input type="text" class="form-control add-to-cart-table-coupon-input-achoo" id="CouponCode">
-                      </li>
-                      <li class="nav-item add-to-cart-table-coupon-col-3-achoo">
-                        <a href="#"><img src="img-achoo/apply-now-btn.png" alt="Apply now" class="w-100"></a>
-                      </li>
-                    </ul>
-                  </th>
-                </tr>
-              </tbody>
-            </table>
-            <!--KET THUC BANG CHI TIET SAN PHAM-->
-          </div>
-        </div>
-        <div class="row add-to-cart-table-padding-achoo">
-          <div class="col-7">
-            <!--BANG THONG TIN SHIP-->
-            <div class="my-account-form-space-achoo">
-            </div>
-            <table class="table add-to-cart-table-border-achoo">
-              <thead class="add-to-cart-table2-font-header-achoo">
-                <tr>
-                  <th scope="col">Estimate Shipping and Tax</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr class="add-to-cart-table-font-row-achoo">
-                  <td>
-                    <div>
-                      <div class="my-account-form-space-achoo">
-                      </div>
-                      <p class="add-to-cart-table2-font-form-achoo">Enter your destination to get a shipping estimate.</p>
-                      <p class="add-to-cart-table2-font-form-achoo">Country <span style="color: red;">*</span></p>
-                      <div class="form-group">
-                        <select class="form-control add-to-cart-table2-font-form-achoo" id="choncountry">
-                          <option value="" disabled selected>Choose your country</option>
-                          <option value="1">United States</option>
-                          <option value="2">Germany</option>
-                          <option value="3">France</option>
-                          <option value="4">Poland</option>
-                          <option value="5">Japan</option>
-                        </select>
-                      </div>    
-                      <p class="add-to-cart-table2-font-form-achoo">State/Province</p>
-                      <div class="form-group">
-                        <select class="form-control add-to-cart-table2-font-form-achoo" id="choncountry">
-                          <option value="" disabled selected>Please select region state or province</option>
-                          <option value="1">Alabama</option>
-                          <option value="2">Colorado</option>
-                          <option value="3">Florida</option>
-                          <option value="4">Hawaiʻi</option>
-                          <option value="5">Indiana</option>
-                        </select>
-                      </div>     
-                      <p class="add-to-cart-table2-font-form-achoo">Zip/Postal Code</p>
-                      <div class="form-group">
-                        <input type="text" class="form-control" id="CouponCode">
-                      </div>
-                      <div class="form-group">
-                        <a href="#"><img src="./img-achoo/get-a-quote-btn.png" alt=""></a>
-                      </div>                                     
+                    <p class="add-to-cart-table2-font-form-achoo">State/Province</p>
+                    <div class="form-group">
+                      <select class="form-control add-to-cart-table2-font-form-achoo" id="choncountry">
+                        <option value="" disabled selected>Please select region state or province</option>
+                        <option value="1">Alabama</option>
+                        <option value="2">Colorado</option>
+                        <option value="3">Florida</option>
+                        <option value="4">Hawaiʻi</option>
+                        <option value="5">Indiana</option>
+                      </select>
                     </div>
-                  </td>
-                </tr>
-              </tbody>
-            </table>
-            <!--KET THUC BANG THONG TIN SHIP-->
-          </div>
-          <div class="col-5">
-            <!--BANG CHECKOUT CART-->
-            <div class="my-account-form-space-achoo">
-            </div>
-            <table class="table add-to-cart-table-border-achoo">
-              <thead class="add-to-cart-table2-font-header-achoo">
-                <tr>
-                  <th scope="col">Shopping Cart Total</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr class="add-to-cart-table-font-row-achoo add-to-cart-checkout-background-achoo">
-                  <td>
-                    <div>
-                      <div class="my-account-form-space-achoo">
-                      </div>
-                      <div class="row">
-                        <div class="col-lg-6">
-                          <p class="add-to-cart-checkout-font1-achoo">Subtotal</p>
-                        </div>
-                        <div class="col-lg-6">
-                          <p class="add-to-cart-checkout-font1-achoo text-right">$129.00</p>
-                        </div>
-                      </div> 
-                      <div class="row">
-                        <div class="col-lg-6">
-                          <p class="add-to-cart-checkout-font2-achoo">Grand Total</p>
-                        </div>
-                        <div class="col-lg-6">
-                          <p class="add-to-cart-checkout-font2-achoo text-right">$129.00</p>
-                        </div>
-                      </div> 
-                      <div class="row">
-                        <div class="col-lg-12">
-                          <a href="#"><img src="./img-achoo/proceed-to-checkout-btn.png" alt="" class="w-100"></a>
-                        </div>
-                      </div>  
-                      <div class="my-account-form-space-achoo">
-                      </div>              
+                    <p class="add-to-cart-table2-font-form-achoo">Zip/Postal Code</p>
+                    <div class="form-group">
+                      <input type="text" class="form-control" id="CouponCode">
                     </div>
-                  </td>
-                </tr>
-              </tbody>
-            </table>
-            <!--KET THUC BANG CHECKOUT CART-->
-          </div>
+                    <div class="form-group">
+                      <a href="#"><img src="./img-achoo/get-a-quote-btn.png" alt=""></a>
+                    </div>
+                  </div>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <!--KET THUC BANG THONG TIN SHIP-->
         </div>
-        <!--KET THUC NOI DUNG CHINH-->  
+        <div class="col-5">
+          <!--BANG CHECKOUT CART-->
+          <div class="my-account-form-space-achoo">
+          </div>
+          <table class="table add-to-cart-table-border-achoo">
+            <thead class="add-to-cart-table2-font-header-achoo">
+              <tr>
+                <th scope="col">Shopping Cart Total</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr class="add-to-cart-table-font-row-achoo add-to-cart-checkout-background-achoo">
+                <td>
+                  <div>
+                    <div class="my-account-form-space-achoo">
+                    </div>
+                    <div class="row">
+                      <div class="col-lg-6">
+                        <p class="add-to-cart-checkout-font1-achoo">Subtotal</p>
+                      </div>
+                      <div class="col-lg-6">
+                        <p class="add-to-cart-checkout-font1-achoo text-right">$129.00</p>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-lg-6">
+                        <p class="add-to-cart-checkout-font2-achoo">Grand Total</p>
+                      </div>
+                      <div class="col-lg-6">
+                        <p class="add-to-cart-checkout-font2-achoo text-right">$129.00</p>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-lg-12">
+                        <a href="#"><img src="./img-achoo/proceed-to-checkout-btn.png" alt="" class="w-100"></a>
+                      </div>
+                    </div>
+                    <div class="my-account-form-space-achoo">
+                    </div>
+                  </div>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <!--KET THUC BANG CHECKOUT CART-->
+        </div>
+      </div>
+      <!--KET THUC NOI DUNG CHINH-->
     </div>
     <div class="footer-content-achoo">
     </div>
@@ -239,4 +243,5 @@
 
   <!--KET THUC-->
 </body>
+
 </html>
