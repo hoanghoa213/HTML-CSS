@@ -233,3 +233,51 @@ input.asterisk{
 .checkout-table-order-col2-achoo{
     width: 30%;
 }
+/* STYLE FAQ */
+.faq-title-achoo{
+    font-family: "Montserrat medium";
+    font-size: 20px;
+    color: #4a4642;
+}
+.faq-hide-achoo{
+    background: #ffffff;
+}
+.faq-show-achoo{
+    background: #f1f1f1;
+}
+.faq-hide2-achoo{
+    background: #ffffff;
+}
+.faq-show2-achoo{
+    background: #f1f1f1;
+}
+.faq-hide3-achoo{
+    background: #ffffff;
+}
+.faq-show3-achoo{
+    background: #f1f1f1;
+}
+.faq-hide4-achoo{
+    background: #ffffff;
+}
+.faq-show4-achoo{
+    background: #f1f1f1;
+}
+.faq-hide5-achoo{
+    background: #ffffff;
+}
+.faq-show5-achoo{
+    background: #f1f1f1;
+}
+.faq-hide6-achoo{
+    background: #ffffff;
+}
+.faq-show6-achoo{
+    background: #f1f1f1;
+}
+.faq-hide7-achoo{
+    background: #ffffff;
+}
+.faq-show7-achoo{
+    background: #f1f1f1;
+}
