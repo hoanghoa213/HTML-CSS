@@ -28,30 +28,37 @@
                         <p class="info-head" style="display: inline">Email: <span>inquiry@nognic.com</span></p>
                     </div>
                     <div class="col-lg-6 combobox">
-                        <div class="dropdown show">
+                        <div class="dropdown">
                             <a class="dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true">
                                 <i class="far fa-user"></i> My Account
                             </a>
-                            <div class="dropdown-menu account" aria-labelledby="dropdownMenuLink">
-                                <a class="dropdown-item" href="#">Frofile</a>
-                                <a class="dropdown-item" href="#">Setting</a>
-                                <a class="dropdown-item" href="#">Sign out</a>
+                            <div class="dropdown-menu myaccount-form-achoo">
+                                <a class="dropdown-item myaccount-bullet-achoo w-100" href="#">MY ACCOUNT</a>
+                                <div class="myaccount-line-achoo border-info"></div>
+                                <a class="dropdown-item myaccount-bullet-achoo w-100" href="#">WISHLIST</a>
+                                <div class="myaccount-line-achoo border-info"></div>
+                                <a class="dropdown-item myaccount-bullet-achoo w-100" href="#">CHECKOUT</a>
+                                <div class="myaccount-line-achoo border-info"></div>
+                                <a class="dropdown-item myaccount-bullet-achoo w-100" href="#">BLOG</a>
+                                <div class="myaccount-line-achoo border-info"></div>
+                                <a class="dropdown-item myaccount-bullet-achoo w-100" href="#">LOGIN</a>
+                                <div class="myaccount-line-achoo border-info"></div>
                             </div>
                         </div>
-                        <div class="dropdown show">
+                        <div class="dropdown">
                             <a class="dropdown-toggle unit" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true">
                                 $ USD
                             </a>
-                            <div class="dropdown-menu unit-menu" aria-labelledby="dropdownMenuLink">
+                            <div class="dropdown-menu myaccount-form-achoo" aria-labelledby="dropdownMenuLink">
                                 <a class="dropdown-item unit-item" href="#">$ USD</a>
                                 <a class="dropdown-item unit-item" href="#">đ VND</a>
                             </div>
                         </div>
-                        <div class="dropdown show">
+                        <div class="dropdown">
                             <a class="dropdown-toggle language" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true">
                                 <img src="img/fr.png" alt=""> FRENCH
                             </a>
-                            <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                            <div class="dropdown-menu myaccount-form-achoo" aria-labelledby="dropdownMenuLink">
                                 <a class="dropdown-item language-item" href="#"><img src="img/fr.png" alt=""> FRENCH</a>
                                 <a class="dropdown-item language-item" href="#"><img src="img/vn.png" alt=""> VIETNAMESE</a>
                                 <a class="dropdown-item language-item" href="#"><img src="img/uk.png" alt=""> ENGLISH</a>
@@ -69,9 +76,58 @@
                         <a href=""><img src="img/logo.png" class="logo" alt=""></a>
                     </div>
                     <div class="col-md-4 col-sm-4 icon">
-                        <a href=""><img src="img/circle-bag.png" align="right" alt=""></a>
+                        <div class="dropdown cart-bg-achoo">
+                        <a href="" data-toggle="dropdown" data-target="#"><img src="img/circle-bag.png" align="right" alt=""></a>
+                        
+                        <div class="dropdown-menu cart-form-achoo">
+                            <p class="cart-title-achoo">2 items in your cart</p>
+                            <div class="row">
+                                <div class="col-lg-4">
+                                    <img src="./img-achoo/Strawberries.jpg" alt="" class="cart-img-achoo">
+                                </div>
+                                <div class="col-lg-6">
+                                    <p class="cart-title-product-achoo">Strawberries, 16 oz</p>
+                                    <p class="cart-title-price-achoo">1 x $2.50</p>
+                                </div>
+                                <div class="col-lg-2">
+                                    <a href="#" class="nav-link text-secondary cart-delete-achoo">X</a>
+                                </div>
+                            </div>
+                            <div class="my-account-form-space-achoo">
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-4">
+                                    <img src="./img-achoo/Broccoli.jpg" alt="" class="cart-img-achoo">
+                                </div>
+                                <div class="col-lg-6">
+                                    <p class="cart-title-product-achoo">Broccoli, bunch</p>
+                                    <p class="cart-title-price-achoo">2 x $4.00</p>
+                                </div>
+                                <div class="col-lg-2">
+                                    <a href="#" class="nav-link text-secondary cart-delete-achoo">X</a>
+                                </div>
+                            </div>  
+                            <div class="my-account-form-space-achoo">
+                            </div>
+                            <div class="cart-line-achoo">
+                            </div>                       
+                            <div class="row">
+                                <p class="cart-total-achoo">Total: $6.50</p>
+                            </div>  
+                            <div class="row">
+                                <div class="col-lg-6">
+                                    <button type="submit" class="form-control btn-outline-secondary" id="viewcart">VIEW CART</button>
+                                </div>
+                                <div class="col-lg-6">
+                                    <button type="submit" class="form-control btn-success" id="CHECKOUT">CHECKOUT</button>
+                                </div>
+                            </div>                             
+                        </div>
+                    
                         <a href=""><img src="img/circle-search.png" align="right" alt=""></a>
                     </div>
+                    </div>
+             
                 </div>
             </div>
             <nav class="navbar navbar-expand-xl navbar-dark container menu">
@@ -81,7 +137,7 @@
                 <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContentXL">
                     <ul class="navbar-nav">
                         <!--MEGAMENU-->
-                        <li class="nav-item position-static parent"><img src="img/leaf.png" class="child" alt=""><a href="#" data-toggle="dropdown" data-target="#">Home</a>
+                        <li class="nav-item position-static parent"><img src="img/leaf.png" class="child leaf-achoo" alt=""><a href="#" data-toggle="dropdown" data-target="#">Home</a>
                         <!-- div.w-100 make it mega menu, div.top-auto opens the mega menu exactly as position like other normal menu -->
                         <div class="dropdown-menu background-megamenu-achoo w-100">
                             <div class="container">
