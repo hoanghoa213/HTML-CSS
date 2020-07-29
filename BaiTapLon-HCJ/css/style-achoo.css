@@ -325,3 +325,18 @@ input.asterisk{
     padding-top: 40px;
 }
 
+/* MEGAMENU STYLES */
+.top-auto{top:auto}
+.background-megamenu-achoo{
+    background: #629624;
+}
+
+.title-megamenu-achoo{
+    font-family: "Montserrat";
+    color: #ffffff;
+}
+.desc-megamenu-achoo{
+    font-family: "Montserrat";
+    color: #caeaa4 !important;
+}
+
