@@ -32,11 +32,18 @@
                             aria-haspopup="true">
                             <i class="far fa-user"></i> My Account
                         </a>
-                        <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                            <a class="dropdown-item" href="#">Frofile</a>
-                            <a class="dropdown-item" href="#">Setting</a>
-                            <a class="dropdown-item" href="#">Sign out</a>
-                        </div>
+                        <div class="dropdown-menu myaccount-form-achoo">
+                                <a class="dropdown-item myaccount-bullet-achoo w-100" href="my-account.html">MY ACCOUNT</a>
+                                <div class="myaccount-line-achoo border-info"></div>
+                                <a class="dropdown-item myaccount-bullet-achoo w-100" href="Wish-list.html">WISHLIST</a>
+                                <div class="myaccount-line-achoo border-info"></div>
+                                <a class="dropdown-item myaccount-bullet-achoo w-100" href="checkout.html">CHECKOUT</a>
+                                <div class="myaccount-line-achoo border-info"></div>
+                                <a class="dropdown-item myaccount-bullet-achoo w-100" href="blog.html">BLOG</a>
+                                <div class="myaccount-line-achoo border-info"></div>
+                                <a class="dropdown-item myaccount-bullet-achoo w-100" href="my-account.html">LOGIN</a>
+                                <div class="myaccount-line-achoo border-info"></div>
+                            </div>
                     </div>
                     <div class="dropdown show">
                         <a class="dropdown-toggle unit" href="#" role="button" id="dropdownMenuLink"
@@ -71,8 +78,55 @@
                     <a href="home.html"><img src="img/logo.png" class="logo" alt=""></a>
                 </div>
                 <div class="col-md-4 col-sm-4 icon">
-                    <a href=""><img src="img/circle-bag.png" align="right" alt=""></a>
-                    <a href=""><img src="img/circle-search.png" align="right" alt=""></a>
+                     <div class="dropdown cart-bg-achoo">
+                        <a href="" data-toggle="dropdown" data-target="#"><img src="img/circle-bag.png" align="right" alt=""></a>
+                        <div class="dropdown-menu cart-form-achoo">
+                            <p class="cart-title-achoo">2 items in your cart</p>
+                            <div class="row">
+                                <div class="col-lg-4">
+                                    <img src="./img-achoo/Strawberries.jpg" alt="" class="cart-img-achoo">
+                                </div>
+                                <div class="col-lg-6">
+                                    <p class="cart-title-product-achoo">Strawberries, 16 oz</p>
+                                    <p class="cart-title-price-achoo">1 x $2.50</p>
+                                </div>
+                                <div class="col-lg-2">
+                                    <a href="#" class="nav-link text-secondary cart-delete-achoo">X</a>
+                                </div>
+                            </div>
+                            <div class="my-account-form-space-achoo">
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-4">
+                                    <img src="./img-achoo/Broccoli.jpg" alt="" class="cart-img-achoo">
+                                </div>
+                                <div class="col-lg-6">
+                                    <p class="cart-title-product-achoo">Broccoli, bunch</p>
+                                    <p class="cart-title-price-achoo">2 x $4.00</p>
+                                </div>
+                                <div class="col-lg-2">
+                                    <a href="#" class="nav-link text-secondary cart-delete-achoo">X</a>
+                                </div>
+                            </div>  
+                            <div class="my-account-form-space-achoo">
+                            </div>
+                            <div class="cart-line-achoo">
+                            </div>                       
+                            <div class="row">
+                                <p class="cart-total-achoo">Total: $6.50</p>
+                            </div>  
+                            <div class="row">
+                                <div class="col-lg-6">
+                                    <a href="Add-to-cart.html" class="text-dark form-control btn-outline-secondary" id="viewcart">VIEW CART</a>
+                                </div>
+                                <div class="col-lg-6">
+                                    <a href="checkout.html" class="text-light form-control btn-success" id="CHECKOUT">CHECKOUT</a>
+                                </div>
+                            </div>                             
+                        </div>
+                    
+                        <a href=""><img src="img/circle-search.png" align="right" alt=""></a>
+                    </div>
                 </div>
             </div>
         </div>
