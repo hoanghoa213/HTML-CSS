@@ -19,6 +19,7 @@ p{
 .montserrat-14{
   font-family: Montserrat;
   font-size: 14px;
+  color: #4a4642;
 }
 /* #wrapper{
 	width: 1600px;
@@ -1441,6 +1442,7 @@ form.search input[type=text]:focus{
   border: 1px solid #dfdfdf;
   margin-right: 13px;
   border-radius: 5px;
+  margin-bottom: 50px;
 }
 .pagination-product a:hover{
   color: #fff;
@@ -1452,8 +1454,175 @@ form.search input[type=text]:focus{
   background: #88c442;
   color: #fff;
 }
+.product-description-img{
+  width: 50%;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+.product-description-img .slick-next:before {
+  content: "\f054";
+  font-family: 'Font Awesome\ 5 Free';
+  font-weight: 900;
+  padding: 10px 15px;
+  color: #b7b7b7;
+  font-size: 18px;
+  background: #efefef;
+  border-radius: 50%;
+}
+.product-description-img .slick-prev:before{
+  content: "\f053";
+  font-weight: 900;
+  font-family: 'Font Awesome\ 5 Free';
+  padding: 10px 15px;
+  color: #b7b7b7;
+  font-size: 18px;
+  background: #efefef;
+  border-radius: 50%;
+}
+.product-description-img .slick-prev {
+    left: -61px;
+    z-index: 1000000;
+}
 
+.product-description-img .slick-next {
+    right: -31px;
+    z-index: 100000;
+}
+#productQuatityInput, .subProductQuantity, .addProductQuantity{
+  text-align: center;
+  width:43px;
+  height: 39px;
+  border: 1px solid #dfdfdf;
+  border-radius: 5px;
+  background: #fff;
+  color: #b5b5b5;
+  font-family: Montserrat;
+  font-size: 20px;
+}
+#productQuantity{
+  margin-top: 37px;
+}
+.btn-addtocart-hh213{
+  font-family: Montserrat;
+  font-weight: bold;
+  font-size: 10px;
+  color: #fff;
+  background: #549843;
+  padding: 0px 45px;
+  height: 39px;
+  border-radius: 25px;
+  margin-top: -8px;
+  margin-left: 15px;
+}
+.btn-product-favor{
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  border: 1px solid #e0e0e0;
+  color: #b5b5b5;
+  font-size: 15px;
+  margin-left: 15px;
+  margin-top: -8px;
+}
+.pdi-title{
+  width: 20%;
+}
+.product-detail-info{
+  margin-top: 65px;
+}
+.product-detail-info p{
+  display: inline-block;
+  margin-bottom: 20px;
+}
+#pdi-sku{
+  font-size: 13px;
+  color: #4a4642;
+  margin-left: 13px;
+}
+#pdi-cate{
+  font-size: 13px;
+  color: #88c442;
+  margin-left: 13px;
+}
+.btn-pdi-tag{
+  padding: 6px 10px;
+  font-family: Montserrat;
+  font-size: 11px;
+  color: #898989;
+  background: #ebebeb;
+  margin-left: 7px;
+}
+.pdi-title{
+  font-family: Montserrat Medium;
+  font-size: 13px;
+  color: #4a4642;
+}
+.pdi-share{
+  color: #9b9997;
+  margin-left: 15px;
+}
+.pdi-share:hover{
+  color: #9bcc66;
+}
+.tab-pd .nav-pills .nav-link.active{
+    color: #64a056;
+    background: #fff;
+    border: 1px solid #64a056;
+    border-bottom: none;
+}
+.tab-pd a.nav-link{
+  color: #898480;
+  font-family: Montserrat;
+  font-size: 17px;
+}
+.tab-pd .nav-item{
+  margin-left: 12px;
+}
+#tab-pd-description{
+  width: 97%;
+}
+.related-slider img{
+  width: 100%;
+}
+.related-slider .slick-next:before {
+  content: "\f054";
+  font-weight: 900;
+  color: #bebebe;
+  font-family: 'Font Awesome\ 5 Free';
+  font-size: 18px;
+}
+.related-slider .slick-prev:before{
+  content: '\f053';
+  font-family: 'Font Awesome\ 5 Free';
+  font-size: 18px;
+  color: #bebebe;
+  font-weight: 900;
+}
+.related-slider .slick-prev:hover:before,
+.related-slider .slick-next:hover:before {
+  color: #88c442 !important;
+}
 
+.related-slider .slick-prev {
+    left: 93%;
+    top: -45px;
+}
+
+.related-slider .slick-next {
+    right: 15px;
+    top: -45px;
+}
+
+ .related-slider .slick-slide {
+    margin-left: 25px;
+  }
+
+ .related-slider .slick-list {
+    margin-left: -25px;
+  }
+  .related-slider .slide-item{
+    box-shadow: 5px 10px 15px 15px #f0f0f0;
+  }
 @media screen and (-webkit-min-device-pixel-ratio:0) {
     .range1 input[type='range'] {
       overflow: hidden;
@@ -1507,7 +1676,12 @@ form.search input[type=text]:focus{
       box-shadow: -1800px 0 0 1800px #7abd2c;
     }
 }
-
+.related-slider{
+  margin-bottom: 145px;
+}
+.related-slider .slide-item{
+  margin-top: 75px;
+}
 @media only screen and (max-width: 1200px){
   .deal-center .deal-item-title{
     width: 204px;
