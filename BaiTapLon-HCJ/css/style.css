@@ -10,7 +10,9 @@ hr {
 p {
     font-family: Montserrat;
 }
-
+button:focus{
+    outline: none;
+}
 .container {
     max-width: 1232px;
 }
