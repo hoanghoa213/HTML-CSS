@@ -1166,7 +1166,7 @@ footer {
 .farmer-img {
     position: absolute;
     top: 6%;
-    left: 12%;
+    left: 15%;
     /* width: 86%; */
     /* transform: translate(-50%, -50%); */
 }
@@ -2031,21 +2031,36 @@ form.search input[type=text]:focus {
         width: 40%;
         top: 32%;
     }
-
     .farmer-img {
-        left: 29%;
+        left: 33%;
     }
+
 }
 
 @media only screen and (max-width: 768px) {
     .pr-right {
         height: 200px;
     }
+ .farmer-img {
+        left: 31%;
+    }
 }
-
+@media only screen and (max-width: 700px) {
+ .farmer-img {
+        left: 28%;
+    }
+}
+@media only screen and (max-width: 615px) {
+ .farmer-img {
+        left: 26%;
+    }
+}
 @media only screen and (min-width: 200px) and (max-width: 460px) {
     .deal-center-item {
         position: unset;
         margin-top: -270px;
+    }
+    .farmer-img {
+        left: 6%;
     }
 }
