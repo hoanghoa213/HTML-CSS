@@ -145,6 +145,10 @@ $(function(){
             $("#collapseOne7").removeClass('faq-show-achoo').addClass('faq-hide-achoo');
             $("#changeCollapse7").attr("src", hide);
         }
-    });                        
+    }); 
+    /* POPUP AUTO OPEN  */
+    $(window).on('load',function(){
+        $('#exampleModalCenter').modal('show');
+    });
 
 })

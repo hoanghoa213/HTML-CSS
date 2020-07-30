@@ -14,6 +14,29 @@
 </head>
 
 <body>
+<!-- POPUP NEWS LETTER -->
+<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg new-center-content-achoo" role="document">
+      <div class="modal-content">
+          <div class="new-bg-achoo">
+            <div class="new-logo-achoo">
+              <p class="new-title-achoo">news letter</p>
+            </div>
+            <p class="new-desc-achoo">sign up for our exclusive email list and be the first to hear of special <br>
+              promotions, new arrivals, and great news.</p>
+            <div>
+              <input type="email" class="form-control bg-white new-email-achoo" id="email"
+                placeholder="Enter your email here...">
+            </div>
+            <div class="form-check text-center new-popup-achoo">
+              <input type="checkbox" class="form-check-input " id="popup">
+              <label class="form-check-label" for="popup">Don't show thí popup again</label>
+            </div>
+          </div>
+      </div>
+    </div>
+  </div>
+  <!--KET THUC POPUP-->    
     <div id="wrapper">
         <header>
             <div class="info-bar">
@@ -33,13 +56,13 @@
                                 <i class="far fa-user"></i> My Account
                             </a>
                             <div class="dropdown-menu myaccount-form-achoo">
-                                <a class="dropdown-item myaccount-bullet-achoo w-100" href="#">MY ACCOUNT</a>
+                                <a class="dropdown-item myaccount-bullet-achoo w-100" href="my-account.html">MY ACCOUNT</a>
                                 <div class="myaccount-line-achoo border-info"></div>
-                                <a class="dropdown-item myaccount-bullet-achoo w-100" href="#">WISHLIST</a>
+                                <a class="dropdown-item myaccount-bullet-achoo w-100" href="Wish-list.html">WISHLIST</a>
                                 <div class="myaccount-line-achoo border-info"></div>
-                                <a class="dropdown-item myaccount-bullet-achoo w-100" href="#">CHECKOUT</a>
+                                <a class="dropdown-item myaccount-bullet-achoo w-100" href="checkout.html">CHECKOUT</a>
                                 <div class="myaccount-line-achoo border-info"></div>
-                                <a class="dropdown-item myaccount-bullet-achoo w-100" href="#">BLOG</a>
+                                <a class="dropdown-item myaccount-bullet-achoo w-100" href="blog.html">BLOG</a>
                                 <div class="myaccount-line-achoo border-info"></div>
                                 <a class="dropdown-item myaccount-bullet-achoo w-100" href="#">LOGIN</a>
                                 <div class="myaccount-line-achoo border-info"></div>
@@ -116,10 +139,10 @@
                             </div>  
                             <div class="row">
                                 <div class="col-lg-6">
-                                    <button type="submit" class="form-control btn-outline-secondary" id="viewcart">VIEW CART</button>
+                                    <a href="Add-to-cart.html" class="text-dark form-control btn-outline-secondary" id="viewcart">VIEW CART</a>
                                 </div>
                                 <div class="col-lg-6">
-                                    <button type="submit" class="form-control btn-success" id="CHECKOUT">CHECKOUT</button>
+                                    <a href="checkout.html" class="text-light form-control btn-success" id="CHECKOUT">CHECKOUT</a>
                                 </div>
                             </div>                             
                         </div>
@@ -814,8 +837,8 @@
                     <div class="col-xl-2 center-link">
                         <h3>QUICK LINKS</h3>
                         <ul>
-                            <li><a href="">Blog</a></li>
-                            <li><a href="">FAQs</a></li>
+                            <li><a href="blog.html">Blog</a></li>
+                            <li><a href="FAQ.html">FAQs</a></li>
                             <li><a href="">Payment</a></li>
                             <li><a href="">Shipment</a></li>
                             <li><a href="">Where is my order?</a></li>
@@ -868,6 +891,7 @@
     <script src="js/popper.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/style.js"></script>
+    <script src="js/jquery-achoo.js"></script>
     <script>
     $(document).ready(function() {
         $('.slider').slick({
