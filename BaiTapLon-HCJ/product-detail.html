@@ -4,7 +4,7 @@
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="UTF-8">
-    <title>Home | Organic</title>
+    <title>Product Detail | Organic</title>
     <link rel="stylesheet" href="fontawesome-free-5.14.0-web/css/all.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="slick/slick.css">
@@ -32,10 +32,17 @@
                             <a class="dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true">
                                 <i class="far fa-user"></i> My Account
                             </a>
-                            <div class="dropdown-menu account" aria-labelledby="dropdownMenuLink">
-                                <a class="dropdown-item" href="#">Frofile</a>
-                                <a class="dropdown-item" href="#">Setting</a>
-                                <a class="dropdown-item" href="#">Sign out</a>
+                            <div class="dropdown-menu myaccount-form-hh213">
+                                <a class="dropdown-item myaccount-bullet-hh213 w-100" href="#">MY ACCOUNT</a>
+                                <div class="myaccount-line-hh213 border-info"></div>
+                                <a class="dropdown-item myaccount-bullet-hh213 w-100" href="#">WISHLIST</a>
+                                <div class="myaccount-line-hh213 border-info"></div>
+                                <a class="dropdown-item myaccount-bullet-hh213 w-100" href="#">CHECKOUT</a>
+                                <div class="myaccount-line-hh213 border-info"></div>
+                                <a class="dropdown-item myaccount-bullet-hh213 w-100" href="#">BLOG</a>
+                                <div class="myaccount-line-hh213 border-info"></div>
+                                <a class="dropdown-item myaccount-bullet-hh213 w-100" href="#">LOGIN</a>
+                                <div class="myaccount-line-hh213 border-info"></div>
                             </div>
                         </div>
                         <div class="dropdown show">
@@ -69,7 +76,52 @@
                         <a href=""><img src="img/logo.png" class="logo" alt=""></a>
                     </div>
                     <div class="col-md-4 col-sm-4 icon">
-                        <a href=""><img src="img/circle-bag.png" align="right" alt=""></a>
+                        <div class="dropdown cart-bg-hh213">
+                        <a href="" data-toggle="dropdown" data-target="#"><img src="img/circle-bag.png" align="right" alt=""></a>
+                        <div class="dropdown-menu cart-form-hh213">
+                            <p class="cart-title-hh213">2 items in your cart</p>
+                            <div class="row">
+                                <div class="col-lg-4">
+                                    <img src="./img/Strawberries.jpg" alt="" class="cart-img-hh213">
+                                </div>
+                                <div class="col-lg-6">
+                                    <p class="cart-title-product-hh213">Strawberries, 16 oz</p>
+                                    <p class="cart-title-price-hh213">1 x $2.50</p>
+                                </div>
+                                <div class="col-lg-2">
+                                    <a href="#" class="nav-link text-secondary cart-delete-hh213">X</a>
+                                </div>
+                            </div>
+                            <div class="my-account-form-space-hh213">
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-4">
+                                    <img src="./img/Broccoli.jpg" alt="" class="cart-img-hh213">
+                                </div>
+                                <div class="col-lg-6">
+                                    <p class="cart-title-product-hh213">Broccoli, bunch</p>
+                                    <p class="cart-title-price-hh213">2 x $4.00</p>
+                                </div>
+                                <div class="col-lg-2">
+                                    <a href="#" class="nav-link text-secondary cart-delete-hh213">X</a>
+                                </div>
+                            </div>  
+                            <div class="my-account-form-space-hh213">
+                            </div>
+                            <div class="cart-line-hh213">
+                            </div>                       
+                            <div class="row">
+                                <p class="cart-total-hh213">Total: $6.50</p>
+                            </div>  
+                            <div class="row">
+                                <div class="col-lg-6">
+                                    <button type="submit" class="form-control btn-outline-secondary" id="viewcart">VIEW CART</button>
+                                </div>
+                                <div class="col-lg-6">
+                                    <button type="submit" class="form-control btn-success" id="CHECKOUT">CHECKOUT</button>
+                                </div>
+                            </div>                             
+                        </div>
                         <a href=""><img src="img/circle-search.png" align="right" alt=""></a>
                     </div>
                 </div>
@@ -80,7 +132,78 @@
                 </button>
                 <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContentXL">
                     <ul class="navbar-nav">
-                        <li class="nav-item parent"><img src="img/leaf.png" class="child" alt=""><a href="">Home</a></li>
+                          <!--MEGAMENU-->
+                        <li class="nav-item position-static parent"><img src="img/leaf.png" class="child leaf-hh213" alt=""><a href="#" data-toggle="dropdown" data-target="#">Home</a>
+                        <!-- div.w-100 make it mega menu, div.top-auto opens the mega menu exactly as position like other normal menu -->
+                        <div class="dropdown-menu background-megamenu-hh213 w-100">
+                            <div class="container">
+                                <!-- div.w-100 is also needed in certain circumstances to make this menu a mega menu -->
+                                <div class="row w-100">
+                                    <!-- It's yours now. Add columns or change layout as per your wish -->
+                                    <div class="text-center col-sm-3">
+                                        <h4 class="title-megamenu-hh213">Regular Fruits</h4>
+                                        <a href="#" class="dropdown-item desc-megamenu-hh213">Banana</a>
+                                        <a href="#" class="dropdown-item desc-megamenu-hh213">Chikoo</a>
+                                        <a href="#" class="dropdown-item desc-megamenu-hh213">Tender Coconut</a>
+                                        <a href="#" class="dropdown-item desc-megamenu-hh213">Pineapple</a>
+                                    </div>
+                                    <div class="text-center col-sm-3">
+                                        <h4 class="title-megamenu-hh213">Seasonal Fruits</h4>
+                                        <a href="#" class="dropdown-item desc-megamenu-hh213">Mango</a>
+                                        <a href="#" class="dropdown-item desc-megamenu-hh213">Orange</a>
+                                        <a href="#" class="dropdown-item desc-megamenu-hh213">Strawberries</a>
+                                        <a href="#" class="dropdown-item desc-megamenu-hh213">Grapes</a>
+                                    </div>
+                                    <div class="text-center col-sm-3">
+                                        <h4 class="title-megamenu-hh213">Exotics Fruits</h4>
+                                        <a href="#" class="dropdown-item desc-megamenu-hh213">Avocado</a>
+                                        <a href="#" class="dropdown-item desc-megamenu-hh213">Guava Thai</a>
+                                        <a href="#" class="dropdown-item desc-megamenu-hh213">Mangosteen</a>
+                                        <a href="#" class="dropdown-item desc-megamenu-hh213">Grapefruit</a>
+                                    </div>
+                                    <div class="text-center col-sm-3">
+                                        <h4 class="title-megamenu-hh213">Imported Fruits</h4>
+                                        <a href="#" class="dropdown-item desc-megamenu-hh213">Kiwi Green</a>
+                                        <a href="#" class="dropdown-item desc-megamenu-hh213">Apple</a>
+                                        <a href="#" class="dropdown-item desc-megamenu-hh213">Pears</a>
+                                        <a href="#" class="dropdown-item desc-megamenu-hh213">Passion Fruit</a>
+                                    </div>
+                                </div>
+                                <div class="row w-100">
+                                    <!-- It's yours now. Add columns or change layout as per your wish -->
+                                    <div class="text-center col-sm-3">
+                                        <h4 class="title-megamenu-hh213">Citrus Fruits</h4>
+                                        <a href="#" class="dropdown-item desc-megamenu-hh213">Oranges</a>
+                                        <a href="#" class="dropdown-item desc-megamenu-hh213">Lemons</a>
+                                        <a href="#" class="dropdown-item desc-megamenu-hh213">Tangerines</a>
+                                        <a href="#" class="dropdown-item desc-megamenu-hh213">Lime</a>
+                                    </div>
+                                    <div class="text-center col-sm-3">
+                                        <h4 class="title-megamenu-hh213">Dry Fruits</h4>
+                                        <a href="#" class="dropdown-item desc-megamenu-hh213">Dates</a>
+                                        <a href="#" class="dropdown-item desc-megamenu-hh213">Apricots</a>
+                                        <a href="#" class="dropdown-item desc-megamenu-hh213">Figs</a>
+                                        <a href="#" class="dropdown-item desc-megamenu-hh213">Raisins</a>
+                                    </div>
+                                    <div class="text-center col-sm-3">
+                                        <h4 class="title-megamenu-hh213">Exotics Fruits</h4>
+                                        <a href="#" class="dropdown-item desc-megamenu-hh213">Kiwi Green</a>
+                                        <a href="#" class="dropdown-item desc-megamenu-hh213">Apple</a>
+                                        <a href="#" class="dropdown-item desc-megamenu-hh213">Pears</a>
+                                        <a href="#" class="dropdown-item desc-megamenu-hh213">Passion Fruit</a>
+                                    </div>
+                                    <div class="text-center col-sm-3">
+                                        <h4 class="title-megamenu-hh213">Imported Fruits</h4>
+                                        <a href="#" class="dropdown-item desc-megamenu-hh213">Kiwi Green</a>
+                                        <a href="#" class="dropdown-item desc-megamenu-hh213">Apple</a>
+                                        <a href="#" class="dropdown-item desc-megamenu-hh213">Pears</a>
+                                        <a href="#" class="dropdown-item desc-megamenu-hh213">Passion Fruit</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>                        
+                        </li>
+                        <!--KET THUC MEGAMENU-->
                         <li class="nav-item"><a href="">History</a></li>
                         <li class="nav-item"><a href="">Vegetables</a></li>
                         <li class="nav-item"><a href="">Fruits</a></li>
