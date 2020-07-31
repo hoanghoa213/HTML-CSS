@@ -1997,7 +1997,9 @@ form.search input[type=text]:focus {
 .related-slider .slide-item {
     margin-top: 75px;
 }
-
+.slide-item:focus{
+    outline: none;
+}
 @media only screen and (max-width: 1200px) {
     .deal-center .deal-item-title {
         width: 204px;
@@ -2036,7 +2038,11 @@ form.search input[type=text]:focus {
     }
 
 }
-
+@media only screen and (max-width: 1210px) {
+    #center-text{
+        font-size: 70px;
+    }
+}
 @media only screen and (max-width: 768px) {
     .pr-right {
         height: 200px;
@@ -2053,6 +2059,9 @@ form.search input[type=text]:focus {
 @media only screen and (max-width: 615px) {
  .farmer-img {
         left: 26%;
+    }
+    .input-newsl{
+        font-size: 8px;
     }
 }
 @media only screen and (min-width: 200px) and (max-width: 460px) {

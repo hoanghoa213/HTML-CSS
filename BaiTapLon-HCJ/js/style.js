@@ -9,15 +9,24 @@ $(function() {
 		var text = $(this).text();
 		$(".unit").text(text);
 	});
-	$( "#slider-range" ).slider({
-      range: true,
-      min: 0,
-      max: 500,
-      values: [ 75, 300 ],
-      slide: function( event, ui ) {
-        $( "#amount" ).val( "$" + ui.values[ 0 ] +".00"+ " - $" + ui.values[ 1 ]+".00" );
-      }
+	$(".btn-newsl").click(function(event) {
+    	var text = $(".input-newsl").val();
+    	if($("#newsl")[0].checkValidity()===true){
+    		alert(text);
+    	}
     });
-    $( "#amount" ).val( "$" + $( "#slider-range" ).slider( "values", 0 )+".00" +
-      " - $" + $( "#slider-range" ).slider( "values", 1 )+".00" );
+    $(".btn-contact").click(function(event) {
+    	var name = $("#contact-name").val();
+    	var mail = $("#contact-mail").val();
+    	var phone = $("#contact-phone").val();
+    	var cmt = $("#contact-cmt").val();
+    	if($("#form-contact")[0].checkValidity()===true){
+    		alert("Tên: "+name+"\nMail: "+mail+"\nPhone: "+phone+"\nCmt: "+cmt);
+    	}
+    });
+    $("#newsl").submit(function(e){
+    e.preventDefault(); // <-- prevents the form from submitting
+    // do stuff
+    // this.submit() // <-- send it through
+});
 });
